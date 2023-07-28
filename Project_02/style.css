@@ -1,29 +1,28 @@
-/* Reset*/
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* designing the body */
   body {
-    background-color: #073b4c;
+    background-color: #006d77;
+    font-family: 'Poller One', cursive;
+   
   }
   
-  /* designing the title*/
   h3 {
-    color: white;
+    color: #fdefc1;
+    font-weight: 100;
   }
   
-  /* designing the navbar */
+  /* Top Navigation Styles */
   .topnav {
     overflow: hidden;
     background-color: #051331;
     padding: 10px;
   }
-  
-/* designing the heading */
-  .topnav h1 {
+   .topnav h1 {
     text-align: center;
     padding: 14px 16px;
     font-size: 2.4rem;
@@ -33,40 +32,45 @@
     color: transparent;
   }
   
-  /* designing the searchbar*/
+
   .topnav .search-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+
+  
+  /* Form Styles */
   form {
     display: flex;
     justify-content: center;
     text-align: center;
-    background: #d4a373;
+    background-color:#ffffff;
     width: 50%;
     border-radius: 15px;
   }
-  
-  /* Styling for input elements within the form */
   input {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px 100px;
-    border-radius: 15px;
+    padding: 10px 80px;
     border: none;
     outline: none;
-    background-color: #d4a373;
+    background-color:#ffffff;
     margin-bottom: 10px;
+    color: #051331;
   }
   
   input:focus {
     outline: none;
+    background: transparent;
   }
-  
-  /* designing the Movie Cards Section  */
+  /* #query{
+background-color: #ff4040;
+  }
+  */
+  /* Movie Cards Section Styles */
   .section {
     display: flex;
     flex-wrap: wrap;
@@ -75,28 +79,27 @@
     padding: 20px;
   }
   
-  /* designing for individual movie cards */
   .card {
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 15px;
-    background: #0a526a;
-    box-shadow: 4px 4px 5px 5px #01212c;
+    background: #082931;
+    box-shadow: 10px 10px 10px #01161b;
+    /* box-shadow:4px 4px 5px 5px #010e15; */
     width: 300px;
     height: 400px;
     margin: 10px;
   }
   
-  /* Styling for images within movie cards */
   img {
+    /* margin: auto; */
     width: 230px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
   }
   
-  /* Styling for the content inside movie cards */
   .card-content {
     flex-grow: 1;
     display: flex;
@@ -105,23 +108,25 @@
     align-items: center;
   }
   
-  /* Styling for buttons within movie cards */
   button {
     border-radius: 10px;
     background-color: #bc6c25;
     border: none;
     margin: auto;
     padding: 10px 95px;
-    color: white;
+    color: #ffffff;
+    
+   
   }
-  
-  /* Styling for buttons when hovered */
-  button:hover {
+  button:hover{
     cursor: pointer;
     background-color: #9d510e;
   }
-  
-  /* Responsive Styles for smaller screen sizes*/
+  p{
+  font-size: 20px;
+    color: #fff;
+  }
+  /* Responsive Styles */
   @media (max-width: 768px) {
     form {
       width: 80%;
