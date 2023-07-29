@@ -12,18 +12,18 @@ function myFunction() {
 // this below code is for form 
 
 
-function toggleForm() {
-    const form = document.getElementById('blog-form');
-    const btn = document.getElementById('add-blog-btn');
+// function toggleForm() {
+//     const form = document.getElementById('blog-form');
+//     const btn = document.getElementById('add-blog-btn');
 
-    if (form.style.display === 'none') {
-        form.style.display = 'block';
-        btn.textContent = 'Close';
-    } else {
-        form.style.display = 'none';
-        btn.textContent = 'Add Blog';
-    }
-}
+//     if (form.style.display === 'none') {
+//         form.style.display = 'block';
+//         btn.textContent = 'Close';
+//     } else {
+//         form.style.display = 'none';
+//         btn.textContent = 'Add Blog';
+//     }
+// }
 
 function saveBlog() {
     const imageUrl = document.getElementById('image-url').value;
