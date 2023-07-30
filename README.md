@@ -1,4 +1,4 @@
-# MileStone_Repo
+# MileStone_Repo.
 Repository containing skill-enhancing projects assigned by PW Skills.
 
 Welcome to MileStone_Repo! This repository contains three web development projects showcasing different skills and technologies, ranging from static web pages to dynamic web applications. Below is a brief overview of each project:
